@@ -1,0 +1,79 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+
+<title>HANGMAN</title>
+
+</head>
+
+<body>
+
+<link href="css/hangman.css" rel="stylesheet" type="text/css">
+
+<h1>H A N G M A N</h1>
+
+<p id="play">
+	<input type="button" value="Play" onClick="playGame()" style="background-color: white; border-color: white; font-family: 'hang'; font-size: 25px"><br><br>
+</p>
+
+<p id="word">
+	
+</p>
+
+<div id="buttons">
+	<input type="button" value="a" onClick="letterSelectA()" id="letterA" style="background-color: white; border-color: white; font-family: 'hang'; font-size: 18px">
+	<input type="button" value="b" onClick="letterSelectB()" id="letterB" style="background-color: white; border-color: white; font-family: 'hang'; font-size: 18px">
+	<input type="button" value="c" onClick="letterSelectC()" id="letterC" style="background-color: white; border-color: white; font-family: 'hang'; font-size: 18px">
+	<input type="button" value="d" onClick="letterSelectD()" id="letterD" style="background-color: white; border-color: white; font-family: 'hang'; font-size: 18px">
+	<input type="button" value="e" onClick="letterSelectE()" id="letterE" style="background-color: white; border-color: white; font-family: 'hang'; font-size: 18px">
+	<input type="button" value="f" onClick="letterSelectF()" id="letterF" style="background-color: white; border-color: white; font-family: 'hang'; font-size: 18px">
+	<input type="button" value="g" onClick="letterSelectG()" id="letterG" style="background-color: white; border-color: white; font-family: 'hang'; font-size: 18px">
+	<input type="button" value="h" onClick="letterSelectH()" id="letterH" style="background-color: white; border-color: white; font-family: 'hang'; font-size: 18px">
+	<input type="button" value="i" onClick="letterSelectI()" id="letterI" style="background-color: white; border-color: white; font-family: 'hang'; font-size: 18px">
+	<input type="button" value="j" onClick="letterSelectJ()" id="letterJ" style="background-color: white; border-color: white; font-family: 'hang'; font-size: 18px">
+	<input type="button" value="k" onClick="letterSelectK()" id="letterK" style="background-color: white; border-color: white; font-family: 'hang'; font-size: 18px">
+	<input type="button" value="l" onClick="letterSelectL()" id="letterL" style="background-color: white; border-color: white; font-family: 'hang'; font-size: 18px">
+	<input type="button" value="m" onClick="letterSelectM()" id="letterM" style="background-color: white; border-color: white; font-family: 'hang'; font-size: 18px">
+	<input type="button" value="n" onClick="letterSelectN()" id="letterN" style="background-color: white; border-color: white; font-family: 'hang'; font-size: 18px">
+	<input type="button" value="o" onClick="letterSelectO()" id="letterO" style="background-color: white; border-color: white; font-family: 'hang'; font-size: 18px">
+	<input type="button" value="p" onClick="letterSelectP()" id="letterP" style="background-color: white; border-color: white; font-family: 'hang'; font-size: 18px">
+	<input type="button" value="q" onClick="letterSelectQ()" id="letterQ" style="background-color: white; border-color: white; font-family: 'hang'; font-size: 18px">
+	<input type="button" value="r" onClick="letterSelectR()" id="letterR" style="background-color: white; border-color: white; font-family: 'hang'; font-size: 18px">
+	<input type="button" value="s" onClick="letterSelectS()" id="letterS" style="background-color: white; border-color: white; font-family: 'hang'; font-size: 18px">
+	<input type="button" value="t" onClick="letterSelectT()" id="letterT" style="background-color: white; border-color: white; font-family: 'hang'; font-size: 18px">
+	<input type="button" value="u" onClick="letterSelectU()" id="letterU" style="background-color: white; border-color: white; font-family: 'hang'; font-size: 18px">
+	<input type="button" value="v" onClick="letterSelectV()" id="letterV" style="background-color: white; border-color: white; font-family: 'hang'; font-size: 18px">
+	<input type="button" value="w" onClick="letterSelectW()" id="letterW" style="background-color: white; border-color: white; font-family: 'hang'; font-size: 18px">
+	<input type="button" value="x" onClick="letterSelectX()" id="letterX" style="background-color: white; border-color: white; font-family: 'hang'; font-size: 18px">
+	<input type="button" value="y" onClick="letterSelectY()" id="letterY" style="background-color: white; border-color: white; font-family: 'hang'; font-size: 18px">
+	<input type="button" value="z" onClick="letterSelectZ()" id="letterZ" style="background-color: white; border-color: white; font-family: 'hang'; font-size: 18px">
+	<br>
+</div>
+
+<input type="button" value="Check" onClick="checkLetter()" style="background-color: white; border-color: white; font-family: 'hang'; font-size: 25px">
+
+<p id="wrong">
+
+</p>
+
+<p id="images">
+	<img src="img/0.png" alt="Summer Edwards">
+</p>
+
+
+
+<br><br><br>
+	
+<script src="js/hangman.js"></script>
+
+<!-- how to change style of the buttons: https://www.wikihow.com/Change-the-Button-Color-in-HTML -->
+</body>
+</html>
+
+
+
+

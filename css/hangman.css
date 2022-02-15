@@ -1,0 +1,26 @@
+body{
+	font-family: 'hang';
+	font-size: 50px;
+	text-align: center;
+	background-color: rgb(193, 255, 189);
+	margin-left: 50px;
+	margin-right: 50px;
+}
+h1{
+	font-size: 70px;
+	color: black;
+	
+}
+
+@font-face {
+    font-family: 'hang';
+    src: url('../fonts/darkforest-webfont.eot');
+    src: url('../fonts/darkforest-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/darkforest-webfont.woff2') format('woff2'),
+         url('../fonts/darkforest-webfont.woff') format('woff'),
+         url('../fonts/darkforest-webfont.ttf') format('truetype'),
+         url('../fonts/darkforest-webfont.svg#dark_forestregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
