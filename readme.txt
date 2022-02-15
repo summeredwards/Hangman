@@ -1,0 +1,3 @@
+This website utilizes HTML5, CSS3, and JavaScript to emulate the Hangman game. Press "play" to start the game. Click on desired letter, then click "check". If you guess corectly, the letter will be displayed on the blank lines. If you guess incorrectly, the letter will be listed below. As you guess wrong answers, the typical Hangman drawing will be displayed below. If the entire Hangman is drawn, you lose the game, and the correct answer will be shown. Hit "play" at anytime to start over. 
+
+This site was created in my Web college course. 
